@@ -19,5 +19,6 @@ variable "db_username" {
 
 variable "db_encrypted" {
   description = "Encrypt the database storage"
-  type = bool
+  type        = bool
+  default     = true   # or false
 }
